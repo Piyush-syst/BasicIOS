@@ -17,6 +17,8 @@
 		6C71EA78252EDDC800BC89BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C71EA77252EDDC800BC89BC /* main.m */; };
 		6C71EA82252EDDC800BC89BC /* BasicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C71EA81252EDDC800BC89BC /* BasicsTests.m */; };
 		6C71EA8D252EDDC800BC89BC /* BasicsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C71EA8C252EDDC800BC89BC /* BasicsUITests.m */; };
+		6C71EAA8252F282300BC89BC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C71EAA6252F282300BC89BC /* SecondViewController.m */; };
+		6C71EAA9252F282300BC89BC /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C71EAA7252F282300BC89BC /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		6C71EA88252EDDC800BC89BC /* BasicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C71EA8C252EDDC800BC89BC /* BasicsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicsUITests.m; sourceTree = "<group>"; };
 		6C71EA8E252EDDC800BC89BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C71EAA5252F282300BC89BC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6C71EAA6252F282300BC89BC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6C71EAA7252F282300BC89BC /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,9 @@
 		6C71EA56252EDDC600BC89BC = {
 			isa = PBXGroup;
 			children = (
+				6C71EAA5252F282300BC89BC /* SecondViewController.h */,
+				6C71EAA6252F282300BC89BC /* SecondViewController.m */,
+				6C71EAA7252F282300BC89BC /* SecondViewController.xib */,
 				6C71EA61252EDDC600BC89BC /* Basics */,
 				6C71EA80252EDDC800BC89BC /* BasicsTests */,
 				6C71EA8B252EDDC800BC89BC /* BasicsUITests */,
@@ -242,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C71EAA9252F282300BC89BC /* SecondViewController.xib in Resources */,
 				6C71EA75252EDDC800BC89BC /* LaunchScreen.storyboard in Resources */,
 				6C71EA72252EDDC800BC89BC /* Assets.xcassets in Resources */,
 				6C71EA6D252EDDC600BC89BC /* Main.storyboard in Resources */,
@@ -269,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C71EAA8252F282300BC89BC /* SecondViewController.m in Sources */,
 				6C71EA78252EDDC800BC89BC /* main.m in Sources */,
 				6C71EA70252EDDC600BC89BC /* Basics.xcdatamodeld in Sources */,
 				6C71EA6A252EDDC600BC89BC /* ViewController.m in Sources */,
